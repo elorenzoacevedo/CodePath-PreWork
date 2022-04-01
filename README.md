@@ -39,10 +39,20 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+Start/Stop button
 <img src="http://g.recordit.co/aGo87F3JbF.gif">
+
+Timer - lose game
 <img src="http://g.recordit.co/x1TKlQjdkp.gif">
+
+Player strikes
 <img src="http://g.recordit.co/y0oE5vm3bw.gif">
+
+Game speed-up
 <img src="http://g.recordit.co/Hnp2xBbmWG.gif">
+
+Win game
+<img src="http://g.recordit.co/5pmNnkGnbM.gif">
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
