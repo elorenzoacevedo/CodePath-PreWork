@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>MemoLights!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      MemoLights!
+    </h1>
+    
+    <p>
+      Welcome to MemoLights! Press the start button and repeat the pattern to win :)
+      (Don't let the time run out!)
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="timer" class="hidden"> 0 </div>
+    
+    <div id="strikes">
+      <img id="heart1" class="hidden" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/life.png?v=1648728375343" width="50" height="50">
+      <img id="heart2" class="hidden" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/life.png?v=1648728375343" width="50" height="50">
+      <img id="heart3" class="hidden" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/life.png?v=1648728375343" width="50" height="50">
+    </div>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)">
+        <img id ="image1" class="hidden" draggable="false" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/angry%20(1).png?v=1648175284864" alt="Angry emoji" width="100" height="100">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)">
+        <img id="image2" class="hidden" draggable="false" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/sad.png?v=1648651876603" alt="Sad emoji" width="100" height="100">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)">
+        <img id="image3" class="hidden" draggable="false" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/confused.png?v=1648652307993" alt="Confused emoji" width="100" height="100">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)">
+        <img id="image4" class="hidden" draggable="false" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/flat-mouth.png?v=1648653074711" alt="Flat faced emoji" width="100" height="100">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone(5)">
+        <img id="image5" class="hidden" draggable="false" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/happy.png?v=1648653208240" alt="Happy emoji" width="100" height="100">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone(6)">
+        <img id="image6" class="hidden" draggable="false" src="https://cdn.glitch.global/4f240490-9504-4dac-9315-e050c0d13bab/star.png?v=1648653331029" alt="Starry eyes emoji" width="100" height="100">
+      </button>
+    </div>
+  </body>
+</html>
